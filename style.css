@@ -28,4 +28,11 @@ button {
   aspect-ratio: 1;
   height: 750px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  display: grid;
+  grid-template-columns: repeat(var(--size), 1fr);
+}
+
+.grid-item {
+  border: 1px solid black;
 }
